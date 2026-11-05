@@ -1,0 +1,111 @@
+:root {
+  /* Palette sampled from the design system. These stay fixed. */
+  --color-brand: #1e2a78;
+  --color-ink: #16184e;
+  --color-action: #0550d1;
+  --color-light-blue: #bfd5f7;
+  --color-pale-blue: #e7f4fe;
+  --color-white: #ffffff;
+  --color-soft: #f7f7f7;
+  --color-border: #e1e1e1;
+  --color-muted: #646680;
+  --color-input-border: #767792;
+  --color-background: #ffffff;
+
+  /* Semantic color roles — light */
+  --surface-page: #ffffff;
+  --surface-soft: #f7f7f7;
+  --surface-support: #e7f4fe;
+  --surface-brand: #1e2a78;
+  --surface-selected: #f8fbff;
+  --text-primary: #16184e;
+  --text-secondary: #5c5e78;
+  --text-muted: #646680;
+  --text-inverse: #ffffff;
+  --text-error: #b21d1d;
+  --action-default: #0550d1;
+  --action-hover: #0341ad;
+  --action-pressed: #00358f;
+  --action-on-filled: #ffffff;
+  --action-fill: #0550d1;
+  --border-default: #e1e1e1;
+  --border-control: #767792;
+  --status-error: #c62828;
+  --accent-inverse: #bfd5f7;
+
+  /* Spacing */
+  --space-0: 0px;
+  --space-2xs: 4px;
+  --space-xs: 8px;
+  --space-sm: 12px;
+  --space-md: 16px;
+  --space-lg: 20px;
+  --space-xl: 24px;
+  --space-2xl: 32px;
+  --space-3xl: 40px;
+  --space-4xl: 48px;
+
+  /* Radii */
+  --radius-surface: 0px;
+  --radius-input: 2px;
+  --radius-button: 3px;
+  --radius-search: 5px;
+  --radius-element: 6px;
+  --radius-full: 999px;
+
+  /* Controls */
+  --control-large: 48px;
+  --control-small: 40px;
+  --control-search: 50px;
+
+  /* Type */
+  --font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-display-size: 56px;
+  --font-display-line: 64px;
+  --font-section-size: 34px;
+  --font-section-line: 42px;
+  --font-card-size: 26px;
+  --font-card-line: 34px;
+  --font-subheading-size: 18px;
+  --font-subheading-line: 26px;
+  --font-body-size: 16px;
+  --font-body-line: 24px;
+  --font-small-size: 14px;
+  --font-small-line: 22px;
+  --font-label-size: 13px;
+  --font-label-line: 20px;
+  --font-caption-size: 11px;
+  --font-caption-line: 17px;
+  --font-eyebrow-size: 10px;
+  --font-eyebrow-line: 16px;
+
+  color: var(--text-primary);
+  background: var(--surface-page);
+  font-family: var(--font-family);
+  font-size: var(--font-body-size);
+  line-height: var(--font-body-line);
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+[data-theme="dark"] {
+  --surface-page: #16184e;
+  --surface-soft: #1c215c;
+  --surface-support: #1e2a78;
+  --surface-brand: #10143c;
+  --surface-selected: #24306a;
+  --text-primary: #ffffff;
+  --text-secondary: #c5c8e4;
+  --text-muted: #bfd5f7;
+  --text-inverse: #16184e;
+  --text-error: #ffcdd2;
+  --action-default: #bfd5f7;
+  --action-hover: #d7e6fc;
+  --action-pressed: #ffffff;
+  --action-on-filled: #16184e;
+  --action-fill: #bfd5f7;
+  --border-default: #5c5e78;
+  --border-control: #bfd5f7;
+  --status-error: #ef9a9a;
+  --accent-inverse: #0550d1;
+}

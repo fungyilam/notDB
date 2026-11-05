@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--color-background);
+  color: var(--color-ink);
+}
+
+button,
+input {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.db-display {
+  font-size: var(--font-display-size);
+  line-height: var(--font-display-line);
+  font-weight: 500;
+}
+
+.db-section {
+  font-size: var(--font-section-size);
+  line-height: var(--font-section-line);
+  font-weight: 500;
+}
+
+.db-card-type {
+  font-size: var(--font-card-size);
+  line-height: var(--font-card-line);
+  font-weight: 500;
+}
+
+.db-subheading {
+  font-size: var(--font-subheading-size);
+  line-height: var(--font-subheading-line);
+  font-weight: 500;
+}
+
+.db-body {
+  font-size: var(--font-body-size);
+  line-height: var(--font-body-line);
+  font-weight: 400;
+}
+
+.db-small {
+  font-size: var(--font-small-size);
+  line-height: var(--font-small-line);
+  font-weight: 400;
+}
+
+.db-label {
+  font-size: var(--font-label-size);
+  line-height: var(--font-label-line);
+  font-weight: 500;
+}
+
+.db-caption {
+  font-size: var(--font-caption-size);
+  line-height: var(--font-caption-line);
+  font-weight: 400;
+}
+
+.db-eyebrow {
+  font-size: var(--font-eyebrow-size);
+  line-height: var(--font-eyebrow-line);
+  font-weight: 500;
+  letter-spacing: 0;
+}
